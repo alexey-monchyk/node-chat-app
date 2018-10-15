@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js"
+    "start": "npm server/server.js"
+  },
+  "engines": {
+    "node": "10.10.0"
   },
   "keywords": [],
   "author": "",
